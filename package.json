@@ -1,0 +1,24 @@
+{
+  "name": "solana-pay-pirates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2",
+    "vercel": "^30.1.2"
+  },
+  "dependencies": {
+    "@codec-bytes/base16": "^3.0.1",
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.77.3",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.1.4",
+    "js-sha256": "^0.9.0"
+  }
+}
